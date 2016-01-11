@@ -1,2 +1,2 @@
-# masodik_beadando
+# Második Alkalmazások fejlesztése beadandó
 Második Alkalmazások fejlesztése beadandó

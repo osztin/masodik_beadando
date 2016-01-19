@@ -90,6 +90,8 @@ Rendszerigény:
   + Modern böngészőket futtató hardver
   + Internetkapcsolat
 
+Elérhetőség: [Ezen az oldalon](https://masodik-alkfejl-beadando-osztin.c9users.io/)
+
 Telepítés: nem szükséges telepíteni az alkalmazást, elérhető online böngészőből. Offline használathoz le kell tölteni a "gyak09" mappát.
 
 A program használata:

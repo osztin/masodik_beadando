@@ -1,0 +1,26 @@
+{{log food}}
+<form class="form-horizontal" method="post" data-toggle="validator">
+    <fieldset>
+        <div class="form-group {{if foods.ingredients "has-food"}}">
+            <label for="helyszin" class="col-lg-2 control-label">Helyszín</label>
+            <div class="col-lg-10">
+                <input required class="form-control" id="helyszin" name="helyszin" placeholder="pl. só, bors, stb." type="text" value="{{food.ingredients}}">
+                <div class="help-block">{{foods.ingredients}}</div>
+            </div>
+        </div>
+        <div class="form-group {{if foods.description "has-food"}}">
+            <label for="leiras" class="col-lg-2 control-label">Leírás</label>
+            <div class="col-lg-10">
+                <textarea required class="form-control" rows="3" id="leiras" name="leiras">{{food.description}}</textarea>
+                <span class="help-block">Add meg a recept leírását</span>
+                <div class="help-block">{{foods.description}}</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Cancel</button>
+                <button {{action "submit"}} class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>        
